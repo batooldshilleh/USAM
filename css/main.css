@@ -497,7 +497,7 @@ header {
   position: relative;
 }
 
-.todo__step-desc span {
+.todo__step span {
   position: relative;
   font-family: "Red Hat Display", serif;
   font-size: 2.5rem;
