@@ -117,6 +117,7 @@ header {
 .navbar__logo {
   display: flex;
   align-items: center;
+  size: 30px;
 }
 
 .navbar__logo img {
