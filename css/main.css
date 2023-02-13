@@ -678,19 +678,14 @@ header {
 }
 
 #website-counter{
-  display: flex;
+      display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-    background-color: var(--orange);
-    height: 50px;
-    width: 80px;
-    color: white;
-    border-radius: 30px;
-    font-weight: 700;
-    font-size: 25px;
-    margin-top: 10px;
-    text-align: center;
+    
+    
+    color:  var(--orange);
+    
   
 }
 

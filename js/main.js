@@ -13,16 +13,13 @@ overlay.addEventListener("click", () => {
   button.classList.toggle("open");
   menu.classList.toggle("navbar__open");
 });
-var counterContainer = document.querySelector("#website-counter");
+const count = document.getElementById('website-counter');
+updateVisitCount();
 
-var visitCount = localStorage.getItem("page_view");
-
-// Check if page_view entry is present
-if (visitCount) {
-  visitCount = Number(visitCount) + 1;
-  localStorage.setItem("page_view", visitCount);
-} else {
-  visitCount = 1;
-  localStorage.setItem("page_view", 1);
+function updateVisitCount() {
+  fetch("https://api.countapi.xyz/hit/usam/key")
+  .then(res => res.json())
+  .then(res => {
+    count.innerHTML = res.value;
+  });
 }
-counterContainer.innerHTML = visitCount;
