@@ -17,9 +17,9 @@ const count = document.getElementById('website-counter');
 updateVisitCount();
 
 function updateVisitCount() {
-  fetch("https://api.countapi.xyz/hit/usam/key")
-  .then(res => res.json())
-  .then(res => {
-    count.innerHTML = res.value;
-  });
+	fetch('https://api.countapi.xyz/hit/usam.netlify.app')
+	.then(res => res.json())
+	.then(res => {
+		count.innerHTML = res.value;
+	})
 }
