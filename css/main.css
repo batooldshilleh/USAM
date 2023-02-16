@@ -683,6 +683,7 @@ header {
   align-items: center;
   flex-direction: column;
   font-family: "Domine", serif;
+  font-size: 20px;
     
     color:  var(--orange);
     
