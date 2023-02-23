@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Red+Hat+Display:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <!-- Main Style -->
     <link rel="stylesheet" href="./css/main.css" />
     <title>USAM</title>
@@ -28,14 +29,28 @@
           </div>
           <!-- links -->
           <ul class="navbar__links">
-            <li class="navbar__link"><a href="#banner">overview</a></li>
-            <li class="navbar__link"><a href="#vis">VISION</a></li>
-            <li class="navbar__link"><a href="#contagion">departments</a></li>
-            <li class="navbar__link"><a href="#mis">MISSION </a></li>
+            <div class="ov_drop">
+            <li class="navbar__link" ><a>OVERVIE ▼</a>
+              
+                    <ul class="dropdown-content">
+                      <li><a href="#vis">VISION</a></li>
+                      <li ><a href="#contagion">departments</a></li>
+                      <li ><a href="#mis">MISSION </a></li>
+                      
+                      <li ><a href="#todo">ACHIEVEMENTS</a></li>
+                      <li ><a href="#ne">ourneed</a></li>
+                      <a href="#con">contact</a>
+                    </ul>
+                  
+            </li>
+          </div>
+            
+            <li class="navbar__link"><a>JOINUS</a></li>
+            <li class="navbar__link"><a href="branch.html">BRANCH</a></li>
              
-            <li class="navbar__link"><a href="#todo">ACHIEVEMENTS</a></li>
-            <li class="navbar__link"><a href="#ne">ourneed</a></li>
-            <a href="#con"><button class="navbar__btn">contact</button></a>
+            <li class="navbar__link"><a>CALENDAR</a></li>
+            <li class="navbar__link"><a>GAME</a></li>
+            <a href="#con"><button class="navbar__btn">INVESTUS</button></a>
           </ul>
           <!-- icon -->
           <div class="navbar__ham">
@@ -330,44 +345,9 @@
               </div>
               
             </div>
-            <!--our need-->
-            <div id="ne">
-              <section id="whatis">
-                <div class="container">
-                  <div class="banner__img">
-                    <img
-                      src="./img/5219070.jpg"
-                      alt="stydents"
-                      width="1500 px"
-                      height="700 px"
-                    />
-                  </div>
-                  <div class="banner__desc">
-                    <h4 class="banner__tag">USAM</h4>
-                    <h1 class="banner__title">
-                      WHAT WE NEED
-                    <p class="banner__detail">
-                      We need your cooperate for Our Works , in the
-                      education field can help more people To help people
-                      understand the role of entrepreneurship. In the field
-                      of projects, we have more than 60 projects, 20 of
-                      them have been completed as priority stages, and
-                      among them are many projects of great importance
-                      such as water purification and also in the field of
-                      space , We look forward to talking with you. If you
-                      have any questions, please do not hesitate to
-                      contact us.
-                    </h1>
-                    </p>
-                    <div class="banner__btn">
-                      <br>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-            </section>
+           
             <!--count-->
+            <div class="counter">
             <section id="symptoms" class="pt">
               <div class="container">
                 <div class="wrapper">
@@ -383,80 +363,45 @@
                 </div>
               </div>
             </section>
-         
-    
+          </div>
     <!-- Footer -->
     <div id="con">
-    <footer class="pt" >
-      <div class="container">
-        <div class="wrapper">
-          <div class="footer__top">
-            <!-- logo -->
-            <div class="navbar__logo">
-              <img src="./img/logo.png" alt="logo" />
-              <p>USAM</p>
+      <footer class="footer">
+        <div class="container___fo">
+          <div class="row">
+            
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="#">+201552687716</a></li>
+                <li><a href="mailto:Admin@UsamFoundation.online">Email</a></li>
+                
+              </ul>
             </div>
-           
-            <!-- socials -->
-            <div class="footer__socials">
-              <!-- fb -->
-              <a href="https://www.facebook.com/Usam.Courses/?_rdc=2&_rdr" target="_blank">
-                <svg
-                  width="11"
-                  height="21"
-                  viewBox="0 0 11 21"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g fill="currentColor">
-                    <path
-                      d="M10.6162 0.290178V3.53125H8.68876C7.98489 3.53125 7.51018 3.67857 7.26465 3.97321C7.01911 4.26786 6.89634 4.70982 6.89634 5.29911V7.61942H10.4934L10.0146 11.2533H6.89634V20.5714H3.13965V11.2533H0.00906814V7.61942H3.13965V4.94308C3.13965 3.42076 3.56524 2.24219 4.41643 1.40737C5.26762 0.564359 6.40118 0.142856 7.8171 0.142856C9.02023 0.142856 9.95326 0.191963 10.6162 0.290178Z"
-                    />
-                  </g>
-                </svg>
-            
-              <!-- twitter -->
-              <a href="https://www.instagram.com/usamfoundation/?utm_medium=copy_link" target="_blank">
-                <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                width="16" 
-                height="20" 
-                fill="currentColor" 
-                viewBox="0 0 16 16"> 
-                <path 
-                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/> 
-              </svg>
-              </a>
-              
+            <div class="footer-col">
+              <h4>This site</h4>
+              <ul>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">JOINUS</a></li>
+                <li><a href="#">BRANCH</a></li>
+                <li><a href="#">CALENDAR</a></li>
+                <li><a href="#">GAME</a></li>
+                <li><a href="#">INVESTUS</a></li>
+              </ul>
             </div>
-            
-         
-        </div>
-        <p class="conectes">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
-          </svg>
-          
-            +201559081550
-          </p>
-
-          <a class="conectes">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-              <path d="M12.042 23.648c-7.813 0-12.042-4.876-12.042-11.171 0-6.727 4.762-12.125 13.276-12.125 6.214 0 10.724 4.038 10.724 9.601 0 8.712-10.33 11.012-9.812 6.042-.71 1.108-1.854 2.354-4.053 2.354-2.516 0-4.08-1.842-4.08-4.807 0-4.444 2.921-8.199 6.379-8.199 1.659 0 2.8.876 3.277 2.221l.464-1.632h2.338c-.244.832-2.321 8.527-2.321 8.527-.648 2.666 1.35 2.713 3.122 1.297 3.329-2.58 3.501-9.327-.998-12.141-4.821-2.891-15.795-1.102-15.795 8.693 0 5.611 3.95 9.381 9.829 9.381 3.436 0 5.542-.93 7.295-1.948l1.177 1.698c-1.711.966-4.461 2.209-8.78 2.209zm-2.344-14.305c-.715 1.34-1.177 3.076-1.177 4.424 0 3.61 3.522 3.633 5.252.239.712-1.394 1.171-3.171 1.171-4.529 0-2.917-3.495-3.434-5.246-.134z"/>
-            </svg>
-          
-            Admin@UsamFoundation.online 
-          </a>
-            
-          
-      
-          <div class="footer__bottom">
-            <p>&copy; Thank you for your
-              time on checking our
-              cooperate proposal.</p>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="https://www.facebook.com/Usam.Courses/?_rdc=2&_rdr" target="_blank" ><i class="fab fa-facebook-f"></i></a>
+                
+                <a href="https://www.instagram.com/usamfoundation/?utm_medium=copy_link" target="_blank"><i class="fab fa-instagram"></i></a>
+               
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+     </footer>
+   
   </div>
     <script src="./js/main.js"></script>
   </body>
