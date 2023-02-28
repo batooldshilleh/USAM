@@ -168,6 +168,7 @@ header {
 .navbar__link a:hover {
   color: var(--green);
   transition: var(--smooth);
+  cursor: pointer;
 }
 
 .navbar__btn {
@@ -600,78 +601,55 @@ header {
 
 /* Footer ============= */
 
-.container___fo{
-	
-	margin:auto;
-  padding-left: 70px;
-}
-.row{
-	display: flex;
-	flex-wrap: wrap;
-}
-ul{
-	list-style: none;
-}
 .footer{
-	background-color: var(--orange);
-    padding: 70px 0;
-}
-.footer-col{
-   width: 25%;
-   padding: 0 15px;
-}
-.footer-col h4{
-	font-size: 18px;
-	color: #ffffff;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-	position: relative;
-}
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: var(--pink);
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
-}
-.footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
-}
-.footer-col ul li a{
-	font-size: 16px;
-	text-transform: capitalize;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: 300;
-	color: white;
-	display: block;
-	transition: all 0.3s ease;
-}
-.footer-col ul li a:hover{
-	color:var(--green);
-	padding-left: 8px;
-}
-.footer-col .social-links a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 40px;
-	
-	color: #ffffff;
-	transition: all 0.5s ease;
-}
-.footer-col .social-links a:hover{
-	color: var(--gray);
-	
+  background:var(--orange);
 }
 
+.footer .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap:1.5rem;
+}
+
+.footer .box-container .box h3{
+  font-size: 2rem;
+  padding:1rem 0;
+  color:#fff;
+  margin-left:20px ;
+}
+
+.footer .box-container .box a{
+  display: block;
+  font-size: 1rem;
+  padding:1rem 0;
+  color:#eee;
+  margin-left:20px ;
+  text-decoration: none;
+}
+
+.footer .box-container .box a i{
+  padding-right: .5rem;
+  color:var(--gray);
+}
+
+.footer .box-container .box a:hover i{
+  padding-right: 1.5rem;
+  color:#fff;
+}
+
+.footer .credit{
+  text-align: center;
+  border-top: .1rem solid #fff;
+  color:#fff;
+  padding:2rem;
+  padding-top: 2.5rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.footer .credit span{
+  color:var(--gray);
+}
 
 
 #website-counter{
