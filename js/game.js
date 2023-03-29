@@ -437,7 +437,7 @@ submitBtn.addEventListener('click', () => {
                      إعادة 
              </button>
              
-             <button onclick = "location.href='../quiz.html'"  >
+             <button onclick = "location.href='../index.html'"  >
                  الصفحة الرئيسية
              </button>
             `
